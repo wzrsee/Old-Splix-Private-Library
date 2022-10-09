@@ -599,7 +599,7 @@ do
         end
         --
         function window:Watermark(info)
-            window.watermark = {visible = true}
+            window.watermark = {visible = false}
             --
             local info = info or {}
             local watermark_name = info.name or info.Name or info.title or info.Title or string.format("$$ Splix || uid : %u || ping : %u || fps : %u", 1, 100, 200)
